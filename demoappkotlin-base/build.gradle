@@ -1,13 +1,12 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.feature'
 apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion toolVersions.android.compileSdk
-
+    baseFeature true
 
 
     defaultConfig {
-        applicationId "com.datatheorem.android.trustkit.demoappkotlin"
         minSdkVersion toolVersions.android.minSdk
         targetSdkVersion toolVersions.android.targetSdk
         versionCode demoAppKotlinTrustKitVersionCode

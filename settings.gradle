@@ -1,1 +1,3 @@
-include ':app', ':trustkit', ':demoappkotlin'
+include ':app', ':trustkit', ':demoappkotlin-base'
+include ':instantapp'
+include ':installedapp'

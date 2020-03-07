@@ -1,4 +1,4 @@
-package com.datatheorem.android.trustkit.demoappkotlin
+package com.datatheorem.android.trustkit.demoappkotlin.base
 
 import android.content.BroadcastReceiver
 import android.content.Context
